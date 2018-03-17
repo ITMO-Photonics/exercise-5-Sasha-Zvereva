@@ -8,7 +8,7 @@ b=7.
 tolerance=1.e-3
 
 if( f(a)*f(b)>0. ):
-    print('a and b should have opposite signs')
+    print('A and B should have different signs')
 else:
     while(0.5*(b-a) > tolerance):
         c = 0.5*(a+b)
